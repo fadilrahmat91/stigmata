@@ -1,0 +1,862 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background:#000;
+}
+
+.body_container{
+margin-top:-20px;
+
+}
+
+.logo,.body_container{
+background:#fff;
+}
+
+.cari-group .form-control{
+    width:50%;
+}
+
+.bawah_slider{
+margin-bottom:10px;
+}
+
+.atas_footer{
+	margin-bottom:30px;
+	background:#ff0000;
+	padding:10px;
+	color:#fff;	
+	width:100%;
+}
+
+
+.atas_footer a{
+	color:#fff;
+	text-decoration:underline;
+}
+
+
+.surbcribe_div{	
+	background:#222222;
+	padding:10px;
+	color:#eee;
+}
+
+.sosmed_logo{
+	width:50px;
+	margin:10px;
+}
+
+
+
+.shape_button{
+	background:url("../../img/shape.png") no-repeat;
+	 background-size: 300px 40px;
+	color:#fff;
+	font-weight:bold;
+	padding-left:30px;
+	padding-top:10px;	
+	height:40px;
+	
+	border-bottom:1px solid #ff0000;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #222222;
+  padding-top:10px;
+  color:#eee;
+}
+
+
+
+/* MEGA MENU STYLE
+********************************/ 
+.mega-dropdown {
+  position: static !important;
+  position:relative;
+  width: 100%;  
+  
+}
+
+.mega-dropdown-menu {
+  margin:0 auto;   
+  padding: 10px 0px;  
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  background:#fafafa;
+  
+  min-width:100%;
+  max-width:1140px;
+  display:block:
+}
+/*
+.mega-dropdown-menu:before {
+  content: "";
+  border-bottom: 15px solid #fff;
+  border-right: 17px solid transparent;
+  border-left: 17px solid transparent;
+  position: absolute;
+  top: -15px;
+  left: 285px;
+  z-index: 10;
+}
+
+.mega-dropdown-menu:after {
+  content: "";
+  border-bottom: 17px solid #ccc;
+  border-right: 19px solid transparent;
+  border-left: 19px solid transparent;
+  position: absolute;
+  top: -17px;
+  left: 283px;
+  z-index: 8;
+}
+*/
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #999;
+  white-space: normal;
+  font-size: 12px;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #444;
+  background-color: #f5f5f5;
+}
+
+.mega-dropdown-menu .dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top:-5px;
+}
+
+.mega-dropdown-menu .dropdown-header  a{
+  color: #428bca;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left:-20px;
+}
+
+.mega-dropdown-menu form {
+  margin: 3px 20px;
+}
+
+.mega-dropdown-menu .form-group {
+  margin-bottom: 3px;
+}
+
+/********************************/ 
+
+
+
+
+
+
+.navbar-pink {
+  background-color: #df0024;
+  border-color: #d30224;
+}
+.navbar-pink .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-pink .navbar-brand:hover,
+.navbar-pink .navbar-brand:focus {
+  color: #ffbbbc;
+}
+.navbar-pink .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-pink .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-pink .navbar-nav > li > a:hover,
+.navbar-pink .navbar-nav > li > a:focus {
+  color: #ffbbbc;
+}
+.navbar-pink .navbar-nav > .active > a,
+.navbar-pink .navbar-nav > .active > a:hover,
+.navbar-pink .navbar-nav > .active > a:focus {
+  color: #ffbbbc;
+  background-color: #d30224;
+}
+.navbar-pink .navbar-nav > .open > a,
+.navbar-pink .navbar-nav > .open > a:hover,
+.navbar-pink .navbar-nav > .open > a:focus {
+  color: #ffbbbc;
+  background-color: #d30224;
+}
+.navbar-pink .navbar-toggle {
+  border-color: #d30224;
+}
+.navbar-pink .navbar-toggle:hover,
+.navbar-pink .navbar-toggle:focus {
+  background-color: #d30224;
+}
+.navbar-pink .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-pink .navbar-collapse,
+.navbar-pink .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-pink .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-pink .navbar-link:hover {
+  color: #ffbbbc;
+}
+
+
+.logo{
+margin-top:-60px;
+display: table;
+position:relative;
+padding:0px;
+}
+.logo .gambar_logo{
+width:100%;
+margin-left:-15px;
+}
+
+.gambar_banner_atas_slide{
+width:100%;
+height:80px;
+}
+  
+.phone_atas{
+	font-weight:bold;
+	color:#461a81;
+	font-size:20px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+
+
+
+/***********************************************hp kecil************************************/
+
+@media (max-width: 767px) {
+  .navbar-pink .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-pink .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-pink .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffbbbc;
+  }
+  .navbar-pink .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-pink .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-pink .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffbbbc;
+    background-color: #d30224;
+  }
+  
+  
+  
+.mega-dropdown-menu {
+  margin:0 auto;   
+  padding: 10px 0px; 
+  margin-left:0px;  
+  width:100%;
+ }
+	
+	
+		
+	.gambar_slide{   
+	 height:200px;  
+	  width:100%;
+	    object-fit: cover;
+	  overflow: hidden;
+	}
+	
+	
+
+	.banner_center{
+		padding:0px;
+		margin:0px; 
+		
+	}
+	.banner_center img{
+	width:100%;
+	}
+
+	.banner_right{
+		padding:0px;
+		margin:0px;
+	}
+
+
+	.banner_right img{
+	width:100%;
+	}
+
+	.div_banner_b4{
+		display:none !important;
+	}
+		
+}
+
+/***********************************************lebih besar dari hp************************************/
+@media (min-width: 767px) {
+
+
+	.gambar_slide{   
+	 min-height:500px; 
+	height:100%;	 
+	  object-fit: cover;
+	  overflow: hidden;
+	  width:100%;
+	  
+	}
+	
+		
+
+	.banner_center{
+		padding:0px;
+		margin:0px; 
+		
+	}
+	.banner_center img{
+	min-height:500px;  
+	height:100%;
+	object-fit: cover;
+	 overflow: hidden;
+	width:100%;
+	}
+
+	.banner_right{
+		padding:0px;
+		margin:0px;
+	}
+
+
+	.banner_right img{
+	height:100%;
+	object-fit: cover;
+	 overflow: hidden;
+	width:100%;
+	min-height:250px;  
+	}
+
+
+	
+}
+
+/***********************************************hanya laptop**************************************/
+@media (min-width: 978px) {
+		.cari-group {
+
+			padding-top:10px !important;
+
+		}
+
+}
+
+
+
+
+
+.product_grid > a > div.btn_lihat_detail{
+display:none;
+}
+
+
+.alert{
+padding:5px !important;
+margin-top:5px !important;
+margin-bottom:2px !important;
+}
+
+.hover_product{
+	
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */	
+}
+
+.hover_product_full{	
+	opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */	
+	
+}
+
+.clear{
+clear:both;
+}
+
+  
+.product_grid{
+	padding:0px;
+	margin-bottom:0px;
+	
+}
+.product_grid:hover{
+	padding:0px;
+	margin-bottom:0px;
+}
+  
+.product_grid > li.image{
+	height:160px;
+	margin: 0px;
+}
+
+
+.product_grid > li.judul{
+	height:50px;
+	margin-top:-5px;
+}
+
+.product_grid > li.price {
+	color:red;
+}
+
+
+.product_grid > li > #offernya{
+	margin-top:-250px;
+}
+.product_grid > li > #coretnya{
+	margin-top:-250px;
+}
+.product_grid > li > .harga_pajang{
+	margin-top:-85px;
+}
+
+.product_grid > li.price{
+	height:40px;
+}
+.product_grid > li{	
+	
+	border:1px solid lavenderblush;	
+	padding:0px;
+	width:85%;	
+}
+
+
+
+.product_grid .list-group-item{	
+	margin-left:15px !important;
+	margin-right:15px !important;
+	
+}
+
+.product_grid .list-group-item:first-child {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+
+.product_grid .list-group-item:last-child {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.gambar_product{
+	height:140px !important;
+	max-width:100%;
+}
+
+
+.gambar_product_khusus{
+	max-height:100px !important;
+	max-width:100%;
+	padding-bottom:-10px !important;
+}
+
+
+
+.product_grid_khusus_colom{	
+	border-right:0.1em solid lavender;
+	border-bottom:0.1em solid lavender;
+	
+	width:50%;
+	margin:0px !important;	
+	//margin-right:10px !important;	
+	//margin-left:10px !important;	
+	height:120px;
+}
+.header_grid{	
+	
+	margin-bottom:10px !important;
+	
+}
+
+
+.product_grid_khusus>a>img{		
+	
+	width:110%;
+	
+}
+
+.product_grid_khusus_colom{		
+	height:150px;
+}
+
+.product_grid_khusus_colom > a >span#offernya{	
+	position:absolute;
+	right:0px;
+	top:1px;
+}
+.product_grid_khusus_colom > a > span#coretnya{
+	position:absolute;
+	left:30%;
+	bottom:30px;
+	color:#aaa;
+	//font-size:10px;
+}
+.product_grid_khusus_colom > a > span.harganya_total{
+	position:absolute;
+	left:30%;
+	bottom:15px;
+	color:red;
+}
+
+.product_grid_khusus_colom > a > span.judulnya{
+	position:absolute;
+	left:2px;
+	bottom:0px;
+	color:#565656;
+
+	
+}
+
+
+
+.block{
+display:block;
+}
+
+.carousel-inner > .item > img { margin: 0 auto; }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  /*width: 100%;*/
+  margin: auto;
+  height:420px;
+  padding:0px;
+}
+.carousel-inner > .item > .carousel-caption > h2{
+  color:#ffffff;
+}
+
+.right.carousel-control, .left.carousel-control {
+    //opacity: 0;
+    //filter:alpha(opacity=0); /* IE support */
+}
+
+#slidenya >div{
+	margin-left: -15px;
+	margin-right:-15px;	
+	
+}
+
+div#myCarousel{
+  width:100% !important;
+  
+}
+.carousel-indicators {
+  bottom:-15px;
+}
+.carousel-indicators li {
+  background-color: #669966;
+}
+.carousel-indicators .active {
+  background-color: #FF7600;
+}
+
+#slide_div >div > div>#harga_div{
+margin-bottom:-40px;
+}
+
+#slide_div >div > div> .judulcarousel{
+margin-bottom:100px;
+width:100% !important;
+}
+#slide_div >div > div> #offernya{
+font-size:40px;
+font-weight:bold;
+}
+#slide_div >div > div> #coretnya{
+
+
+}
+
+.lihat_detail{
+display:none;
+list-style:none;
+position:absolute;
+margin-top:-50px;
+}
+
+
+.kat_gambarnya >img{
+
+width:100%;
+
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+
+/*-------------------------------------------------------product grid------------------------------------------------------*/
+
+	.product_grid_khusus_colom > a > span.judulnya{
+		
+		white-space: nowrap; 
+		width: 17em; 
+		overflow: hidden;
+		text-overflow: ellipsis; 
+		font-weight:bold;
+		
+	}
+	
+		
+	.product_grid{
+		height:250px;
+		border-bottom:1px solid #ff0000;
+		
+	}
+	
+	.product_grid_hov{
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	
+		height:250px;
+		border:1px solid #ff0000;
+	}
+	
+		.product_grid > a >span#offernya{	
+			position:absolute;
+			right:20px;
+			top:155px;
+		}
+		.product_grid > a > span#coretnya{
+			position:absolute;
+			left:20px;
+			top:140px;
+			color:#aaa;
+			font-size:12px;
+		}
+		.product_grid > a > span.harganya_total{
+			position:absolute;
+			left:20px;
+			top:155px;
+			color:#f37020;
+			font-size:14px;
+			font-weight:bold;
+			
+		}
+
+		.product_grid > a > span.judulnya{
+			position:absolute;
+			left:20px;
+			right:20px;
+			top:180px;
+			color:#565656;
+			font-size:14px;
+			font-weight:bold;
+			
+		}
+		.product_grid > a > div.btn_lihat_detail{
+			position:absolute;
+			left:20px;
+			right:20px;
+			bottom:5px;						
+		}
+		
+		
+.product_grid .list-group-item{	
+	margin-left:15px !important;
+	margin-right:15px !important;
+	
+}
+
+.product_grid .list-group-item:first-child {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+
+.product_grid .list-group-item:last-child {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.gambar_product{
+	max-height:140px !important;
+	max-width:100%;
+}
+
+
+.gambar_product_khusus{
+	max-height:100px !important;
+	max-width:100%;
+	padding-bottom:-10px !important;
+}
+
+
+
+.product_grid_khusus_colom{	
+	border-right:0.1em solid lavender;
+	border-bottom:0.1em solid lavender;
+	
+	width:50%;
+	margin:0px !important;	
+	//margin-right:10px !important;	
+	//margin-left:10px !important;	
+	height:120px;
+}
+.header_grid{	
+	
+	margin-bottom:10px !important;
+	
+}
+
+
+.product_grid_khusus>a>img{		
+	
+	width:110%;
+	
+}
+
+.product_grid_khusus_colom{		
+	height:150px;
+}
+
+.product_grid_khusus_colom > a >span#offernya{	
+	position:absolute;
+	right:0px;
+	top:1px;
+}
+.product_grid_khusus_colom > a > span#coretnya{
+	position:absolute;
+	left:30%;
+	bottom:30px;
+	color:#aaa;
+	//font-size:10px;
+}
+.product_grid_khusus_colom > a > span.harganya_total{
+	position:absolute;
+	left:30%;
+	bottom:15px;
+	color:red;
+}
+
+.product_grid_khusus_colom > a > span.judulnya{
+	position:absolute;
+	left:2px;
+	bottom:0px;
+	color:#565656;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 978px) {
+	
+	.footer  {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+	  
+    }
+
+	.product_grid_khusus_colom > a > span.judulnya{
+		
+		white-space: nowrap; 
+		width: 12em; 
+		overflow: hidden;
+		text-overflow: ellipsis; 
+		font-weight:bold;
+	}
+
+	.product_grid{
+	border-bottom:1px solid lavender;
+	border-right:1px solid lavender;
+	height:220px;
+	}
+	
+	
+		.product_grid > a >span#offernya{	
+			position:absolute;
+			right:0px;
+			top:1px;
+		}
+		.product_grid > a > span#coretnya{
+			position:absolute;
+			left:30%;
+			top:125px;
+			color:#aaa;
+			font-size:12px;
+		}
+		.product_grid > a > span.harganya_total{
+			position:absolute;
+			left:30%;
+			top:140px;
+			color:#f37020;
+			font-size:14px;
+			font-weight:bold;
+			
+		}
+
+		.product_grid > a > span.judulnya{
+			position:absolute;
+			left:2px;
+			top:158px;
+			color:#565656;
+			font-size:14px;			
+			font-weight:bold;
+		}
+	
+}
+
+
+.thumb_details{
+
+	height:50px !important;
+	max-width:100%;
+
+}
+
+/*-------------------------------------------------------product grid------------------------------------------------------*/

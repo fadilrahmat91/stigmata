@@ -1,0 +1,28 @@
+update 16-4-16
+
+part/:
+footer.php
+heading.php
+menu.php
+seen_product.php
+isi_kategori.php
+is_brand.php
+go_surbcribe.php
+isi_kasir_login.php
+isi_member.php
+
+root/
+member.php
+
+/config/function.php
+		- Object ->member
+		- function link_member()
+
+
+		
+
+		
+custom.css
+
+
+tbl_surbcribe.sql
